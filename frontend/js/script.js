@@ -133,3 +133,13 @@ document.querySelector('.load-more .btn').onclick = () =>{
   });
   document.querySelector('.load-more .btn').style.display = 'none';
 };
+
+
+var app = $.spapp({
+  defaultView: "#page1",
+  templateDir: "../frontend/views/"
+
+});
+
+
+app.run();
