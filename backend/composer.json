@@ -1,0 +1,11 @@
+{
+    "require": {
+        "mikecao/flight": "^3.6",
+        "zircote/swagger-php": "3.3.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebProgrammingApi\\": "backend/public/v1/docs"
+        }
+    }
+}
