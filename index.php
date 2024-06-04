@@ -1,7 +1,4 @@
 <?php
-// Include the Flight framework autoload file
-require 'vendor/autoload.php';
-
-// Start the Flight framework
-Flight::start();
+    // This should be called info.php
+    phpinfo();
 ?>
