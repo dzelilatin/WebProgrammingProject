@@ -6,7 +6,7 @@ define('BASE_URL', 'http://localhost/educa/backend/');
 
 error_reporting(0);
 
-$openapi = \OpenApi\Generator::scan(['../../../rest', './'], ['pattern' => '*.php']);
+$openapi = \OpenApi\Generator::scan(['../../../rest/routes/', './'], ['pattern' => '*.php']);
 
 header('Content-Type: application/x-yaml');
 echo $openapi->toYaml();

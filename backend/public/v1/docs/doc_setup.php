@@ -22,6 +22,3 @@
  *     name="Authentication"
  * )
  */
-class OpenApi
-{
-}
